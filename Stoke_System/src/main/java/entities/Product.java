@@ -1,21 +1,21 @@
 package entities;
 
 public class Product  {
-    //ATRIBUTOS E METODOS LETRAS MINUSCULAS
+    //ATTRIBUTES AND METHODS LOWERCASE LETTERS
     //
     public String name;
     public double price;
     public int quantity;
 
-    // CRIANDOS OS METODOS OPERACOES OU FUNCOES
+    // CREATING METHODS OF OPERATIONS OR FUNCTIONS
 
-    //buscar
+    //search
     public double totalvalueInStock(){
         return price * quantity;
     }
     // para diferenciar o atributo do metodo utilizar this.//
 
-    //atualizar
+    to update
     public void addProduct( int quantity){
         this.quantity += quantity;
     }
