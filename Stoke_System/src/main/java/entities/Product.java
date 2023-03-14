@@ -1,7 +1,7 @@
 package entities;
 
 public class Product  {
-    //ATTRIBUTES AND METHODS LOWERCASE LETTERS
+    /// ATTRIBUTES AND METHODS LOWERCASE LETTERS
     //
     public String name;
     public double price;
@@ -15,11 +15,12 @@ public class Product  {
     }
     // para diferenciar o atributo do metodo utilizar this.//
 
-    to update
+    //to update
     public void addProduct( int quantity){
         this.quantity += quantity;
     }
-    //remover//
+
+    //to remove//
     public void removeProduct( int quantity){
         this.quantity -= quantity;
     }
